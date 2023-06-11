@@ -1,0 +1,84 @@
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para a navegação */
+  nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o carrossel */
+  .carousel {
+    width: 100%;
+  }
+  
+  .carousel .carousel-inner .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilos para as seções de conteúdo */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 5px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
