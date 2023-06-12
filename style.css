@@ -16,12 +16,7 @@ body {
     margin: 0;
   }
   
-  /* Estilos para a navegação */
-  nav {
-    background-color: #666;
-    color: #fff;
-    padding: 10px;
-  }
+ 
   
   nav ul {
     list-style-type: none;
@@ -82,3 +77,7 @@ body {
     color: #ccc;
   }
   
+  .logo{
+    width: 200px; height: 200px;
+    text-align;
+  }
