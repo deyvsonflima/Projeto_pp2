@@ -12,11 +12,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #EDEDED;
+background-color: azure;
 }
 ::selection{
   color: #fff;
-  background: #A83D7B;
+  background: #3d96a8;
 }
 .wrapper{
   width: 380px;
@@ -63,7 +63,7 @@ form input{
   padding: 0 45px;
   font-size: 18px;
   background: none;
-  caret-color: #A83D7B;
+  caret-color: #3175d4cf;
   border-radius: 5px;
   border: 1px solid #bfbfbf;
   border-bottom-width: 2px;
@@ -91,11 +91,11 @@ form .field.error input{
 }
 .input-area .error-icon{
   right: 15px;
-  color: #1e33d4;
+  color: #d41e1e;
 }
 form input:focus ~ .icon,
 form .field.valid .icon{
-  color: #1e33d4;
+  color: #d41e1e;
 }
 form .field.shake input:focus ~ .icon,
 form .field.error input:focus ~ .icon{
@@ -106,7 +106,7 @@ form input::placeholder{
   font-size: 17px;
 }
 form .field .error-txt{
-  color: #0d42c8;
+  color: #c80d0d;
   text-align: left;
   margin-top: 5px;
 }
@@ -140,7 +140,7 @@ form input[type="submit"]{
   transition: all 0.3s ease;
 }
 form input[type="submit"]:hover{
-  background: #A83D7B;
+  background: #1e33d4a5;;
 }
 
 .input-area .toggle-password {

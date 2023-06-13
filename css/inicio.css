@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  background-color: azure;  
   }
   
   /* Estilos para o cabeçalho */
@@ -79,5 +80,25 @@ body {
   
   .logo{
     width: 200px; height: 200px;
-    text-align;
+    
   }
+  
+
+  .img-fluid{
+    -webkit-box-shadow: 25px 14px 6px 4.5px #dddddd;
+-moz-box-shadow: 25px 14px 6px 4.5px #dddddd;
+box-shadow: 25px 14px 6px 4.5px #dddddd;
+width: 600px;
+border-radius: 125px;
+  }
+  .col-lg-6 img{
+    float: left;
+   
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+   }
+
+  
+
+  
